@@ -90,7 +90,7 @@ export const ServerSidebar = async ({
                 }))
               },
               {
-                label: "Voice Channels",
+                label: "Audio Channels",
                 type: "channel",
                 data: audioChannels?.map((channel) => ({
                   id: channel.id,
